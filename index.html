@@ -31,9 +31,9 @@
 
   <h2>Коротко</h2>
   <ul>
-    <li>У Monivo нет аккаунтов и своего сервера. Мы не получаем ваши данные.</li>
+    <li>У Monivo нет аккаунтов и своего сервера. Ваши траты, долги и цели мы не получаем.</li>
     <li>Всё, что вы вводите, хранится только на вашем устройстве.</li>
-    <li>В приложении нет рекламы, аналитики, трекинга и сторонних SDK.</li>
+    <li>В приложении нет рекламы и трекинга. Единственный сторонний сервис — RevenueCat, он учитывает подписки Monivo Pro.</li>
   </ul>
 
   <h2>Какие данные хранятся на устройстве</h2>
@@ -62,6 +62,10 @@
   <p>Покупку и оплату подписки обрабатывает Apple через App Store. Приложение получает от Apple
      только статус подписки (активна ли она и до какой даты). Платёжных данных мы не видим.
      Управлять подпиской и отменить её можно в настройках Apple ID.</p>
+  <p>Для учёта подписок мы используем сервис RevenueCat (revenuecat.com). Ему передаются сведения о покупках
+     Monivo Pro (тариф, дата, цена, страна магазина) случайный анонимный идентификатор, созданный приложением, и технические сведения (версии приложения и iOS, модель устройства).
+     Ваши траты, долги, цели, имя, почта и платёжные данные RevenueCat не передаются. Если вы ничего не покупаете,
+     сведений о покупках нет. Политика RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
 
   <h2>Удаление данных</h2>
   <p>Удалите приложение — и все его данные на устройстве будут удалены. Копии, которые вы
@@ -82,15 +86,16 @@
   <p class="meta">Effective October 30, 2026</p>
   <p>Monivo is an app for tracking spending, debts and savings, developed by Bakhtiyar Yelik.</p>
   <ul>
-    <li>Monivo has no accounts and no servers. We do not receive your data.</li>
+    <li>Monivo has no accounts and no servers. We do not receive your expenses, debts or goals.</li>
     <li>Everything you enter (expenses, debts, savings goals, settings) is stored only on your device.</li>
-    <li>No ads, analytics, tracking or third-party SDKs.</li>
+    <li>No ads or tracking. The only third-party service is RevenueCat, used to manage Monivo Pro subscriptions:
+        it receives purchase details (plan, date, price, storefront) a random anonymous app user ID and technical details (app and iOS version, device model), nothing else.</li>
     <li>If you set up a Shortcuts automation, it passes the amount, merchant and card name of an Apple Pay
         payment to Monivo, which stores it on the device. No card numbers or payment data are shared.</li>
     <li>Payment reminders are local notifications.</li>
     <li>Backup files are created only when you export them; you choose where they go. App data may also be
         included in your device's iCloud Backup if enabled in iOS settings.</li>
-    <li>Monivo Pro subscriptions are processed by Apple. The app only receives the subscription status.</li>
+    <li>Monivo Pro subscriptions are processed by Apple.</li>
     <li>Deleting the app deletes its data from the device.</li>
     <li>The app is not directed at children under 13.</li>
   </ul>
